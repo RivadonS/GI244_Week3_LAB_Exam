@@ -617,8 +617,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 620e3e7f899f50e4fb3acc3adad4a4de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  offset: {x: 0, y: 0, z: 0}
+  player: {fileID: 306984714}
+  offset: {x: 0, y: 4.45, z: -5.31}
+  rearView: {x: 0, y: 4.45, z: -5.31}
+  frontView: {x: 0, y: 2, z: 1.2}
+  FrontView2: {x: 0, y: 1.5, z: 3}
 --- !u!1001 &974359749
 PrefabInstance:
   m_ObjectHideFlags: 0
