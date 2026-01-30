@@ -27,5 +27,6 @@ public class PlaneController : MonoBehaviour
 
         // student code start HERE ...
         // [1] tilt the plane up/down based on up/down arrow keys (move action)
+        transform.Rotate(Vector3.left  * verticalInput * rotationSpeed * Time.deltaTime);
     }
 }
